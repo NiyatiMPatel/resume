@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Responsive resume cv</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Niyati</a>
+
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active_link">
+                            <i class='bx bx-home nav_icon'></i> HOME
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#profile" class="nav_link">
+                            <i class='bx bx-user nav_icon'></i> PROFILE
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#education" class="nav_link">
+                            <i class='bx bx-book nav_icon'></i> EDUCATION
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-receipt nav_icon'></i> SKILLS
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#experience" class="nav_link">
+                            <i class='bx bx-briefcase-alt nav_icon'></i> EXPERIENCE
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#certificates" class="nav_link">
+                            <i class='bx bx-award nav_icon'></i> CERTIFICATES
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area_cv">
+            <div class="resume_left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+                    <div class="home_container section bd-grid">
+                        <div class="home_data bd-grid">
+                            <img src="./img/niyati.jpg" alt="" class="home_img">
+                            <h1 class="home_title">
+                                NIYATI PATEL
+                            </h1>
+                            <h3 class="home_profession">Electronics and Telecommunications Engineer <br>
+                                Frontend Web Developer
+                            </h3>
+                            <!-- Button to generate and download the pdf. Available for desktop. -->
+                            <div>
+                                <a download="" href="./pdf/niyati_Resume.pdf" class="home_button-movil" id>Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home_address bd-grid">
+                            <span class="home_information">
+                                <i class='bx bx-map home_icon'></i> 2B/504 Umiya Nagar Society, Goregaon East, Mumbai -
+                                400063
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-envelope home_icon'></i> patelnitie@gmail.com
+                            </span>
+                            <span class="home_information">
+                                <i class='bx bx-phone home_icon'></i> +91 9082431142
+                            </span>
+                        </div>
+
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <i class='bx bx-download generate_pdf' title="Generate PDF" id="resume_button"></i>
+                    </div>
+
+                    <!-- Theme change button -->
+                </section>
+
+                <!--========== SOCIAL ==========-->
+                <section class="social section">
+                    <h2 class="section_title">SOCIAL</h2>
+
+                    <div class="social_container bd-grid">
+                        <a href="https://linkedin.com/in/niyati-mukesh-patel" target="_blank" class="social_link">
+                            <i class='bx bxl-linkedin-square social_icon'></i> @niyati-mukesh-patel
+                        </a>
+                        <a href="https://github.com/NiyatiMPatel" target="_blank" class="social_link">
+                            <i class='bx bxl-github social_icon'></i> @NiyatiMPatel
+                        </a>
+                    </div>
+
+                </section>
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section_title">PROFILE</h2>
+                    <p class="profile_description">
+                        Electronics and telecommunications engineer, frontend web/ UI developer, Udemy certified React
+                        developer, AWS certified
+                        developer associate and Cloud Solutions architect, able to release projects from the ground up.
+                        With a demonstrated
+                        history of working in the electronics - telecommunications industry and retail sector, acquired
+                        ability to work
+                        efficiently with cross-functional teams in ensuring operational, service, change management and
+                        customer experience
+                        excellence.
+                    </p>
+
+                </section>
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section_title">EDUCATION</h2>
+
+                    <div class="education_container bd-grid">
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">WEB DESIGN AND DEVELOPMENT (MERN STACK DEVELOPMENT)</h3>
+                                <span class="education_studies">TryCatch Classes</span>
+                                <span class="education_year">06/2022 - Current</span>
+                            </div>
+                        </div>
+
+                        <div class="html2pdf__page-break"></div>
+
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">MASTER OF ENGINEERING (TELECOMMUNICATIONS ENGINEERING)</h3>
+                                <span class="education_studies">Melbourne Institute of Technology</span>
+                                <span class="education_year">11/2016 - 07/2018</span>
+                            </div>
+                        </div>
+
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                                <span class="education_line"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">BACHELOR OF ENGINEERING (ELECTRONICS ENGINEERING)</h3>
+                                <span class="education_studies">Atharva College of Engineering</span>
+                                <span class="education_year">07/2012 - 05/2015</span>
+                            </div>
+                        </div>
+
+                        <div class="education_content">
+                            <div class="education_time">
+                                <span class="education_rounder"></span>
+                            </div>
+                            <div class="education_data bd-grid">
+                                <h3 class="education_title">DIPLOMA OF ENGINEERING (ELECTRONICS ENGINEERING)</h3>
+                                <span class="education_studies">Thakur Polytechnic</span>
+                                <span class="education_year">07/2009 - 05/2012</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section_title">SKILLS</h2>
+
+                    <div class="skills_content bd-grid">
+                        <ul class="skills_data">
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>HTML5</li>
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>CSS3</li>
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>Bootstrap5</li>
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>Javascript</li>
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>Github</li>
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>Firebase</li>
+                        </ul>
+                        <ul class="skills_data">
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>ReactJS, Router, Redux</li>
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>Amazon Web Service</li>
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>Cisco routing and switching
+                            </li>
+                            <li class="skills_name"><i class='bx bxs-circle skills_icon'></i>Microsoft office suit</li>
+                        </ul>
+                    </div>
+
+                </section>
+
+            </div>
+
+            <div class="resume_right">
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section_title">EXPERIENCE</h2>
+
+                    <div class="experience_container bd-grid">
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">RETAIL ASSISTANT</h3>
+                                <span class="experience_company">06/2020 to 07/2021 | Moorabbin Fresh Farmer Wholesale
+                                    Market | Melbourne, Victoria, Australia</span>
+                                <p class="experience_desription">
+                                <ul class="experience_data">
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Scan and
+                                        weigh
+                                        groceries, fresh produce and ensure
+                                        correct price is charged</li>
+                                    <li class="experience_duty"> <i class='bx bxs-circle experience_icon'></i>Process
+                                        EFTPOS
+                                        transactions, including cash and credit
+                                        purchases or refunds</li>
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Answer
+                                        customers' questions, provide information on
+                                        procedures fulfilling requests</li>
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Work
+                                        closely
+                                        with Store Manager to solve problems and
+                                        handle customer concerns</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                                <span class="experience_line"></span>
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">TELECOMMUNICATIONS ENGINEER</h3>
+                                <span class="experience_company">02/2018 to 04/2020 | Exel Galaxy Technology Services
+                                    Pty Ltd | Melbourne, Victoria, Australia</span>
+                                <p class="experience_desription">
+                                <ul class="experience_data">
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Onsite
+                                        FTTC, FTTN, HFC installation, deployment, line inspection and service
+                                        restoration from construction and design
+                                        faults ensuring QA, OH&S</li>
+                                    <li class="experience_duty"> <i class='bx bxs-circle experience_icon'></i> Analyse
+                                        new telecommunications sites by locating sites and following through to approval
+                                    </li>
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Review
+                                        project deliverables, technical standards and initiate appropriate corrective
+                                        actions</li>
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Record
+                                        project risks, issues, internal and external project status and coordinate
+                                        timely resolutions</li>
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Maintain
+                                        documentation for all telecommunication systems to stay abreast of new
+                                        technology standards</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience_content">
+                            <div class="experience_time">
+                                <span class="experience_rounder"></span>
+                            </div>
+                            <div class="experience_data bd-grid">
+                                <h3 class="experience_title">TELECOMMUNICATIONS ENGINEER INTERN</h3>
+                                <span class="experience_company">11/2017 to 01/2018 | Exel Galaxy Technology Services
+                                    Pty Ltd | Melbourne, Victoria, Australia</span>
+                                <p class="experience_desription">
+                                <ul class="experience_data">
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Develop
+                                        and maintain positive customer relations and coordinate with team members to
+                                        ensure requests and questions
+                                        were handled appropriately</li>
+                                    <li class="experience_duty"> <i class='bx bxs-circle experience_icon'></i> Interface
+                                        with project engineering team to prepare work plans, schedules and allocation
+                                    </li>
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Provide
+                                        assistance with document processes and project deliverables, both inbound and
+                                        outbound, including artefact
+                                        sorting, logging and work order creation</li>
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Provide
+                                        engineering support to FTTC and FTTN copper team during commissioning phase of
+                                        project</li>
+                                    <li class="experience_duty"><i class='bx bxs-circle experience_icon'></i> Develop
+                                        new and on-going performance assessment of project, issues, construction crew
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section_title">CERTIFICATES</h2>
+
+                    <div class="certificate_container bd-grid">
+                        <div class="certificate_content">
+                            <h3 class="certificate_title">React - The complete guide (including Hooks, React Router,
+                                Redux) | May 2022</h3>
+                            <a href="https://www.udemy.com/certificate/UC-b78f20a3-09d1-4eea-8c65-beeb9874b82e/"
+                                target="_blank" class="certificate_link">View Certificate</a>
+                        </div>
+                        <div class="certificate_content">
+                            <h3 class="certificate_title">AWS Solutions Architect – Associate | February 2021</h3>
+                            <a href="https://www.youracclaim.com/badges/dc522635-8dca-47ba-8b53-c5692731d756/public_url"
+                                target="_blank" class="certificate_link">View Certificate</a>
+                        </div>
+                        <div class="certificate_content">
+                            <h3 class="certificate_title">AWS Developer – Associate | November 2020</h3>
+                            <a href="https://www.youracclaim.com/badges/4404f93d-1905-444c-a7a2-668606494276/public_url"
+                                target="_blank" class="certificate_link">View Certificate</a>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- ========= PROJECTS ============= -->
+                <section class="project section" id="project">
+                    <h2 class="section_title">PROJECTS</h2>
+
+                    <div class="project_container bd-grid">
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="project_line"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                <h3 class="education_title">Login Page | November 2021</h3>
+                                <span class="project_studies">Simple login page using HTML5 and CSS3.
+                                    Uses HTML5 validation for username and password.
+                                    Redirects to successful page when clicked login button.
+                                </span>
+                                <a href="https://niyatimpatel.github.io/LoginPage/" target="_blank"
+                                    class="project_link">View Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="project_line"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                <h3 class="project_title">Dribble Card Design | November 2021</h3>
+                                <span class="project_studies">Single static card design using HTML5 and CSS3.</span>
+                                <a href="https://niyatimpatel.github.io/Dribble-designcard/" target="_blank"
+                                    class="project_link">View Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="project_line"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                <h3 class="project_title">.Onetown (Multiple Pages) | February 2022</h3>
+                                <span class="project_studies">Static website using HTML5, CSS3 and JavaScript.
+                                    Allows users to navigate between pages by clicking on navigation menu options.
+                                    Added background image carousel and featured images slick slider for enhanced user
+                                    interface.
+                                </span>
+                                <a href="https://niyatimpatel.github.io/.onetown/" target="_blank"
+                                    class="project_link">View Project</a>
+                            </div>
+                        </div>
+
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="project_line"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                <h3 class="project_title">Expense Tracker | March 2022</h3>
+                                <span class="project_studies">ReactJS based expense tracker app.
+                                    Fully responsive and interactive app.
+                                    Uses dummy dataset, accepts and temporarily stores and displays user inputs.
+                                </span>
+                                <a href="https://niyatimpatel.github.io/react-expense-tracker/" target="_blank"
+                                    class="project_link">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="project_line"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                <h3 class="project_title">Food Order App | April 2022</h3>
+                                <span class="project_studies">ReactJS based food ordering app.
+                                    Fully responsive and interactive app.
+                                    Connected to Firebase Realtime Database to fetch food menu and post order confirmed.
+
+                                </span>
+                                <a href="https://niyatimpatel.github.io/food-order-app-project/" target="_blank"
+                                    class="project_link">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="project_line"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                <h3 class="project_title">FitGym Template Clone Assignment @ TryCactch Classes | July
+                                    2022</h3>
+                                <span class="project_studies">Laptop and Mobile responsive website using HTML5 and CSS3.
+                                </span>
+                                <a href=" https://niyatimpatel.github.io/assignment-1/" target="_blank"
+                                    class="project_link">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                                <span class="project_line"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                <h3 class="project_title">Start Bootstrap Template Clone Assignment @ TryCactch Classes
+                                    | August
+                                    2022</h3>
+
+                                <span class="project_studies">Device responsive website using HTML5, CSS3 and
+                                    Bootstrap5.
+                                </span>
+                                <a href=" https://niyatimpatel.github.io/bs-assignment-1/" target="_blank"
+                                    class="project_link">View Project</a>
+                            </div>
+                        </div>
+
+                        <div class="html2pdf__page-break"></div>
+
+                        <div class="project_content">
+                            <div class="project_time">
+                                <span class="project_rounder"></span>
+                            </div>
+                            <div class="project_data bd-grid">
+                                <h3 class="project_title">Vendor – E-Commerce Bootstrap Template Clone Assignment @
+                                    TryCactch Classes | August
+                                    2022</h3>
+                                <span class="project_studies">Device responsive website using HTML5 and CSS3.
+                                </span>
+                                <a href="https://niyatimpatel.github.io/assignment-2/" target="_blank"
+                                    class="project_link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll_top">
+        <i class='bx bx-up-arrow-alt scrolltop_icon'></i>
+    </a>
+
+
+    <!--========== HTML2PDF ==========-->
+    <script src="./js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
