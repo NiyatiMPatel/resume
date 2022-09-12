@@ -27,6 +27,7 @@
   --font-semi-bold: 600;
 
   /*========== Margins ==========*/
+  --mb-0: 0;
   --mb-1: 0.5rem;
   --mb-2: 1rem;
   --mb-3: 1.5rem;
@@ -47,9 +48,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
-/*========== Variables Dark theme ==========*/
-
-/*========== Button Dark/Light ==========*/
 
 /*========== Font size variables to scale cv ==========*/
 body.scale_cv {
@@ -101,11 +99,6 @@ body.scale_cv {
 .scale_cv .resume_right {
   padding: 0 1rem;
 }
-
-/* .scale_cv .home_img {
-  width: 90px;
-  height: 90px;
-} */
 
 .scale_cv .home_container {
   gap: 1.5rem;
@@ -301,6 +294,7 @@ img {
   font-size: 1.2rem;
   margin-bottom: var(--mb-1);
 }
+
 /* ========== Show menu ========= */
 .show_menu {
   bottom: var(--header-height);
@@ -483,6 +477,10 @@ img {
 .skills_icon,
 .experience_icon {
   margin-right: 0.25rem;
+}
+
+.mb-0 {
+  margin-bottom: var(--mb-0);
 }
 
 /*========== CERTIFICATES ==========*/
